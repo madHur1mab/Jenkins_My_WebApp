@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                git branch: 'master', url: 'https://github.com/madHur1mab/Jenkins_My_WebApp.git'
+                git branch: 'main', url: 'https://github.com/madHur1mab/Jenkins_My_WebApp.git'
             }
         }
 
